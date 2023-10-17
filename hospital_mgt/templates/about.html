@@ -1,0 +1,30 @@
+<!-- templates/about.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<div class="container text-center bg-light p-5 rounded">
+    <h1>Welcome to Our Hospital</h1>
+    <p>
+      At Our Hospital, we are committed to providing high-quality healthcare services to our patients.
+      Our dedicated team of healthcare professionals strives to deliver personalized and compassionate
+      care in a safe and welcoming environment.
+    </p>
+    <p>
+      Our hospital is equipped with state-of-the-art facilities and cutting-edge medical technology.
+      We offer a wide range of medical services, including general healthcare, specialized treatments,
+      surgeries, and emergency care.
+    </p>
+    <p>
+      Patient satisfaction is our top priority, and we continuously work to exceed the expectations
+      of our patients and their families. Our experienced medical staff, along with our caring and
+      attentive support team, ensures that every patient receives the highest standard of care.
+    </p>
+    <p>
+      Thank you for choosing Our Hospital for your healthcare needs. We are here to serve you and
+      provide the best possible medical care to improve your health and well-being.
+    </p>
+     <img src="{% static '/images/img.png' %}" class="d-block w-100" alt="...">
+    <!-- Add more content about your hospital here -->
+  </div>
+{% endblock %}
